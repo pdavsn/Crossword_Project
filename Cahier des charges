@@ -10,7 +10,34 @@ Version optimale :
 
 
 paul
+Utilisation d'une librairie standard de mots/indices
+ préférences mots :
+  -pas trop long
+  -pas trop courts
+  -pas trop courants (et, ou, mais, le, il, de, etc. sont à bannir)
+ préférences indices :
+  -entre 1 à 4 mots
+  -relativements vagues
+  -potentiellement humoristiques
+mots placés horizontalement/verticalement sur la grille
+mots ne se chevauchent pas
+un mot ne peut être placé qu'une seule fois dans un puzzle
+les mots doivent se connecter de manière à former une seule "structure"
+moyen de passer d'écriture horizontale à écriture verticale (clic/flèches)
+visualisation de l'emplacement auquel l'utilisateur écrit (lettre et mot sur lequel le curseur se situe)
+bouton pour voir la réussite/l'échec (check le puzzle entier)
+connexion serveur/client, frontend/backend, etc.
+génération dynamique en temps réel
 
+bouton pour résoudre la grille
+chronomètre
+boutons pour voir la réussite/l'échec (check le mot/la lettre sur laquelle l'utilisateur se trouve)
+
+2e langue (anglais)
+boutons pour résoudre le mot/la lettre
+score basé sur la vitesse/nombre d'erreurs
+clavier digital
+garder le puzzle et le progrès du joueur
 
 rene
 
