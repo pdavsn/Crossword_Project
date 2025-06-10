@@ -22,3 +22,17 @@ benjamin
 
 
 lucie
+Pour cela, le projet va nécessiter de créer :
+
+- une bdd stockant des mots et des définitions
+* quels fichiers utiliser pour la créer ? Quels sites visiter ? (wiktionnary.org)
+
+- un fichier f.py qui se connecte à la bdd, récupère les mots + def, lance un sat solveur qui renvoie une grille valide (contient deux fonctions principales : 1 -> génère + renvoie les contraintes utilisées par le sat solveur (2) qui renvoie la grille)
+
+- un fichier f.php qui récupère la grille, l’inclut dans une page html
+
+Lien entre les fichiers :
+
+1) L’utilisateur rentre l’URL .../f.php dans son navigateur
+2) Le fichier f.php s’exécute sur le serveur : lance l’exécution de f.py qui génère la grille + crée une page .html qui contient la grille + def
+3) Envoi du fichier html au client
